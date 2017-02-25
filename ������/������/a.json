@@ -1,0 +1,18 @@
+[
+	[
+		{"img":"2.jpg","price":"380","name":"qq"},
+		{"img":"3.jpg","price":"340","name":"ss"},
+		{"img":"4.jpg","price":"390","name":"aa"},
+		{"img":"5.jpg","price":"100","name":"vv"},
+		{"img":"4-1.jpg","price":"2000","name":"ff"}
+	]
+,[
+		{"img":"2.jpg","price":"380","name":"qq","mai":"0"},
+		{"img":"3.jpg","price":"340","name":"ss","mai":"1"},
+		{"img":"4.jpg","price":"390","name":"aa"},
+		{"img":"5.jpg","price":"100","name":"vv"},
+		{"img":"4-1.jpg","price":"2000","name":"ff"}
+	]
+
+]	
+

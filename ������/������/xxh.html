@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="jquery-1.10.1.min.js" ></script>
+	</head>
+	<style>
+		ul{
+			width: 100px;
+			height: 120px;
+			background: black;
+			list-style: none;
+		}
+		ul li{
+			width: 90px;
+			height: 20px;
+			float: left;
+			background: red;
+			margin: 5px;
+		}
+		.box{
+			width: 300px;
+			height: 300px;
+			position: absolute;
+			right: 1000px;
+			top: 0;
+			background: aquamarine;
+			font-size:40px ;
+		}
+		.box1{
+			width: 300px;
+			height: 300px;
+			background: red;
+			float: left;
+		}
+		.box2{
+			width: 300px;
+			height: 300px;
+			background: green;
+			float: right;
+		}
+	</style>
+	<body>
+	
+		<ul id="list">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+   
+		<!--<div class="box">
+			<div class="box1">idx</div>
+			<div class="box2">你好idx</div>
+		</div>-->
+	</body>
+	<script>
+	/*var div;
+		$("#list li").mouseenter(function(){
+			var idx=$(this).index();
+			
+			var div='<div class="box">'+
+			'<div class="box1">'+idx+'</div>'+
+			'<div class="box2">你好'+idx+'</div>'+
+		'</div>'
+				$("body").append(div);	
+		})*/
+		/*$("#list li").mouseleave(function(){
+			$(".box").css("display","none");
+		})*/
+		$.ajax({
+			type:"get",
+			url:"a.json",
+			success:function(data){
+				var arr=data;
+				var div;
+			$("#list li").mouseenter(function(){
+				if(div){
+					$(div).remove()
+				}
+			var idx=$(this).index();
+			
+			var l=data[0].length;
+			$.each(arr, function(index,obj) {
+				div='<div class="box">'+
+			'<div class="box1"><img src="img/'+
+			obj[idx].img+'"/><p>名称：'+obj[idx].name+'</p><p>价格：'+
+			obj[0].price+'</p></div>'+
+			
+			'<div class="box2">'+'<input type="text" /></div>'+
+		'</div>'
+				$("body").append(div);	
+			});
+			 
+			
+		
+		})
+			$("ul").mouseleave(function(){
+				$(".box").remove()
+			
+		})
+			}
+		});
+		
+	
+	</script>
+</html>
+
+
+
+
+
+
+<!--
+$.ajax({
+			type:"get",
+			url:"a.json",
+			success:function(data){
+					$("#list li").mouseenter(function(){
+			var idx=$(this).index();
+			
+			var div='<div class="box">'+
+			'<div class="box1">姓名'+data[0].name+'年龄：'+data[0].age+'</div>'+
+			'<div class="box2">你好'+idx+'</div>'+
+		'</div>'
+				$("body").append(div);	
+		})
+			}
+		});-->

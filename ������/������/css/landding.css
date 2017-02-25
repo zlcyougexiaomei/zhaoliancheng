@@ -1,0 +1,46 @@
+.wrap-head{width: 100%; overflow: hidden;background-color: #0092d8}
+.wrap-head .head{width:1263px; height: 44px; margin: 0 auto;   }
+.wrap-head .head img{width: 122px; height: 44px; float: left;}
+.wrap-main{width: 100%; overflow: hidden;}
+.wrap-main .main-box{width: 1190px; height: 630px; margin: 0 auto; margin-top: 63px;}
+.wrap-main .main-box .main-img{width: 560px; height: 485px;float: left;}
+
+.wrap-main .main-box .main-img img{display: block;width: 380px; height: 380px;margin-top:53px }
+/*
+.wrap-main .main-box .main-landing{width: 343px; height: 450px;  float: left;
+box-shadow: 0px 0px 4px 0px #d6d6d6;padding-left: 35px;padding-top: 35px;}
+
+.wrap-main .main-box .main-landing .QQ {width: 300px; height: 51px; }
+.wrap-main .main-box .main-landing .QQ img{ border-radius:90px;width:53px; height: 50px; float: left;}
+.wrap-main .main-box .main-landing h2{width: 300px; height: 30px;line-height: 30px;    margin-bottom: 15px;
+    font-size: 20px;}
+.wrap-main .main-box .main-landing .big-box {width: 300px; height: 246px; border-top:#E6E6E6;}
+.wrap-main .main-box .main-landing .big-box h2{margin-top: 20px; margin-bottom: 15px;}
+
+.wrap-main .main-box .main-landing .big-box .inpu #username{width: 300px; height: 40px; display: block; border-radius: 2px;  
+  border: 1px solid #c8c8c8; line-height: 40px;margin-bottom: 10px;}
+.wrap-main .main-box .main-landing .big-box .inpu #password{width: 300px; height: 40px; display: block;border-radius: 2px;  
+  border: 1px solid #c8c8c8;line-height: 40px;margin-bottom: 10px;}
+  
+.wrap-main .main-box .main-landing .big-box #username_span{width: 280px; height: 20px;  display: inline-block; text-align: left; color: orange; line-height: 20px}
+.wrap-main .main-box .main-landing .big-box .cuowu2{}
+
+
+
+.wrap-main .main-box .main-landing .big-box .denglu a{width:300px; height: 40px; display: block;height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #0092d8;
+    color: #fff;
+    margin: 20px 0px 17px 0px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 2px;}
+
+.wrap-main .main-box .main-landing .big-box .denglu a:hover{background-color: blue}
+
+.wrap-main .main-box .main-landing .big-box .login .last-a{float: right;}*/
+
+
+.wrap-footer{width: 100%; }
+.foot {text-align: center; width: 1136px; height: 28px; line-height: 28px; border-top: #D6D6D6; margin: 0 auto;}

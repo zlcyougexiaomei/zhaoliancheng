@@ -1,0 +1,39 @@
+/*   头部     头部    头部    头部     头部    头部    */
+#wrap-head{height:auto; width: 100%;   } 
+#wrap-head #head-top {height: 42px; width: 100%; background-color: #0092d8}
+#wrap-head #head-top ul {width:1200px; height: 42px;	  text-align: center; margin: 0 auto;}
+#wrap-head #head-top ul li{ float: left; list-style: none;line-height: 42px; position: relative;}
+#wrap-head #head-top ul li a{text-decoration:none ; display: block;  
+ margin-right: 38px;}
+ 
+/*<a href="#"><i></i></a> img{margin-top:5px ;  margin-right: 10px; }*/
+
+#wrap-head #head-top ul li i{background: url(../img/LIEBIAO.png) no-repeat; 
+display: block;width: 25px; height: 42px; text-align: center; }
+#wrap-head #head-top ul li:hover:nth-of-type(10){background-color: #006fa3;}
+#wrap-head #head-top ul li:hover:nth-of-type(11){background-color: #006fa3;}
+#wrap-head #head-top ul li:hover:nth-of-type(11) .ulli2 a{text-align: center;color: blue; display: inline;margin-right: 0;}
+/*#wrap-head #head-top ul li:hover:nth-of-type(11) .ulli2{text-align: center;color: blue;}*/
+#wrap-head #head-top ul li:hover:nth-of-type(12){background-color: #006fa3;}
+
+/*#wrap-head #head-top ul li:nth-of-type(9) {width:191px; height: 261px; background-color: pink;display:block;
+position: absolute;top: 42px;z-index: 1; left: -50px;}*/
+#wrap-head #head-top ul li:nth-of-type(10) div{width:191px; height: 261px; display:block;
+position: absolute;top: 42px;z-index: 1; left: -50px; }
+#wrap-head #head-top ul li:nth-of-type(11) div{width:360px; height: 70px;display:block;
+position: absolute;top: 42px;z-index: 1; left: -283px; background-color: #E0E0E0}
+#wrap-head #head-top ul li:nth-of-type(12) .div12{width:297px; height: 295px; background-color: #E0E0E0;display:block;
+position: absolute;top: 42px;z-index: 1; left: -193px;cursor: pointer;}
+#wrap-head #head-top ul li:nth-of-type(9) i{background-position:0 7px;}
+#wrap-head #head-top ul li:nth-of-type(10) i{background-position:-17px 7px;}
+#wrap-head #head-top ul li:nth-of-type(11) i{background-position:-38px 7px;}
+#wrap-head #head-top ul li:nth-of-type(12) i{background-position:-63px 7px;}
+
+
+#wrap-head #head-top ul li:nth-of-type(9) {margin-left: 134px;  padding: 0 26px;}
+#wrap-head #head-top ul li:nth-of-type(10) {padding: 0 26px;}
+
+#wrap-head #head-top ul li:nth-of-type(11) {padding: 0 26px;}
+#wrap-head #head-top ul li:nth-of-type(12)  { display: block;padding: 0 26px;}
+#wrap-head #head-top ul li:nth-of-type(12) i{float: left;}
+#wrap-head #head-top ul li:nth-of-type(12) a{margin: 0; float: right;}
